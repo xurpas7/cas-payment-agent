@@ -1,0 +1,19 @@
+#cmdHome, #cmdCompress{
+    -fx-border-width: 0px 0px 0px 5px;
+    -fx-border-radius: 0px;
+    -fx-background-radius: 0px;
+    -fx-background-color: transparent;
+}
+
+#cmdHome:hover .glyph-icon, #cmdCompress:hover .glyph-icon{
+    -fx-fill: #646464;
+}
+
+#lblLogout:hover{
+    -fx-text-fill: red;
+}
+
+.scroll-pane {
+    -fx-padding: 0;
+    -fx-background:#282E34;
+}
